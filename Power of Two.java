@@ -3,7 +3,6 @@ class Solution {
       if(x==0){
           return false;
       }
-
       while(x%2==0){
           x = x/2 ;
       }
