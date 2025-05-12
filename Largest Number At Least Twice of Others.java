@@ -3,7 +3,6 @@ class Solution {
         int max = -1 ;
         int smax = -1 ;
         int maxIdx = 0 ;
-
         for(int i=0;i<nums.length;i++){
             if(max<nums[i]){
                 smax=max ;
