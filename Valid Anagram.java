@@ -9,7 +9,6 @@ class Solution {
             frequency[s.charAt(i) - 'a']++;
             frequency[t.charAt(i) - 'a']--;
         }
-        
         for (int count : frequency) {
             if (count != 0) {
                 return false;
